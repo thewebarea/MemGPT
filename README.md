@@ -45,29 +45,7 @@
   </details>
 </details>
 
-## Quick setup 
-
-Join <a href="https://discord.gg/9GEQrxmVyE">Discord</a></strong> and message the MemGPT bot (in the `#memgpt` channel). Then run the following commands (messaged to "MemGPT Bot"): 
-* `/profile` (to create your profile)
-* `/key` (to enter your OpenAI key)
-* `/create` (to create a MemGPT chatbot)
-
-Make sure your privacy settings on this server are open so that MemGPT Bot can DM you: \
-MemGPT → Privacy Settings → Direct Messages set to ON
-<div align="center">
- <img src="https://memgpt.ai/assets/img/discord/dm_settings.png" alt="set DMs settings on MemGPT server to be open in MemGPT so that MemGPT Bot can message you" width="400">
-</div>
-
-You can see the full list of available commands when you enter `/` into the message box. 
-<div align="center">
- <img src="https://memgpt.ai/assets/img/discord/slash_commands.png" alt="MemGPT Bot slash commands" width="400">
-</div>
-
-## What is MemGPT? 
-
-Memory-GPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560). 
-
-## Running MemGPT locally
+## Quick setup
 
 Install dependencies:
 
@@ -89,10 +67,11 @@ Add your OpenAI API key to your environment:
 export OPENAI_API_KEY=YOUR_API_KEY
 ```
 
-```sh
-# on Windows
-set OPENAI_API_KEY=YOUR_API_KEY
-```
+## What is MemGPT? 
+
+MemoryGPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560). 
+
+## Try MemGPT in your CLI
 
 To run MemGPT for as a conversation agent in CLI mode, simply run `main.py`:
 
