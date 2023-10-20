@@ -27,7 +27,7 @@ def initialize_memory(ai_notes, human_notes):
     memory.edit_human(human_notes)
     return memory
 
-
+# comment 2
 def construct_system_with_memory(
         system, memory, memory_edit_timestamp,
         archival_memory=None, recall_memory=None
