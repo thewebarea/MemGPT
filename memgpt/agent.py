@@ -16,7 +16,7 @@ from .constants import \
     MESSAGE_CHATGPT_FUNCTION_MODEL, MESSAGE_CHATGPT_FUNCTION_SYSTEM_MESSAGE, MESSAGE_SUMMARY_WARNING_TOKENS, \
     CORE_MEMORY_HUMAN_CHAR_LIMIT, CORE_MEMORY_PERSONA_CHAR_LIMIT
 
-
+# comment 1
 def initialize_memory(ai_notes, human_notes):
     if ai_notes is None:
         raise ValueError(ai_notes)
