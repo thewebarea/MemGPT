@@ -48,7 +48,7 @@ def construct_system_with_memory(
     ])
     return full_system_message
 
-
+#comment 3
 def initialize_message_sequence(
         system,
         memory,
